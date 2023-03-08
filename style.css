@@ -5,3 +5,117 @@
     --black-purple: #361C7A;
     --orange-color: #FF7517;
 }
+
+*
+*::after
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+    max-width: 1728px;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 11px 9px;
+    border-radius: 17.0492px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-weight: 800;
+    font-size: 34px;
+    text-decoration: none;
+}
+
+.btn.dark {
+    background: var(--black-purple);
+}
+
+.btn.light {
+    background: var(--orange-color);
+}
+
+/* Header */
+
+header {
+    background: linear-gradient(180deg, #5C6DFF 0%, #5061FF 49.48%, #000E89 100%);
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 1728px;
+    top: 36px;
+    z-index: 100;
+}
+
+nav .logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    margin: 0px;
+}
+
+nav ul li a {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    display: flex;
+
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/* Hero section */
+
+.hero-section {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-section .left h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 105px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.hero-section .left p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43px;
+    color: #DDDDDD;
+}
+
+.hero-section .left {
+}
+/* Achievement cards */
+
+.achievement-cards {
+    display: none;
+}
+
