@@ -44,8 +44,12 @@ body {
     background: var(--orange-color);
 }
 
-.blue {
+.orange {
     color: var(--orange-color);
+}
+
+.blue {
+    color: var(--blue-color);
 }
 
 /* Header */

@@ -44,8 +44,12 @@ body {
     background: var(--orange-color);
 }
 
-.blue {
+.orange {
     color: var(--orange-color);
+}
+
+.blue {
+    color: var(--blue-color);
 }
 
 /* Header */
@@ -298,7 +302,7 @@ section h3 {
 
 .news .article {
     display: flex;
-    width: 1600px;
+    width: 1700px;
     background: #ffffff;
     box-shadow: 5px 5px 5px rgba(0.2, 0.2, 0.2, 0.2);
     border-radius: 20px;
@@ -314,7 +318,7 @@ section h3 {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 28px;
     line-height: 40px;
     color: #000000;
 }
@@ -322,14 +326,16 @@ section h3 {
 .news .article .inf p {
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 24px;
     margin-left: 20px;
     margin-top: -2px;
     color: #464646;
 }
 
 .news .article img {
+    margin-left: 100px;
     height: 250px;
+    width: 400px;
 }
 
 /* Patient section */
