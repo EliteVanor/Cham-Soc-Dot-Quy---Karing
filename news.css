@@ -87,6 +87,10 @@ nav .logo {
     color: #FFFFFF;
 }
 
+nav a {
+    text-decoration: none;
+}
+
 nav ul {
     display: flex;
     align-items: center;

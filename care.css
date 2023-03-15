@@ -80,6 +80,10 @@ nav.scrolled {
     padding: 12px;
 }
 
+nav a {
+    text-decoration: none;
+}
+
 nav .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
